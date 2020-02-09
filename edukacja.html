@@ -9,9 +9,6 @@
 	<script src ="js/code.js"></script>
 </head>
 
-<!-- This is only one page with is not responding for window size changes, beacuse of float: left.
-I couldn't make it other way with the same reasult -->	
-	
 <body>
 
 	<nav>
@@ -30,15 +27,15 @@ I couldn't make it other way with the same reasult -->
 	<section id="sideMenu">
 		<div class="mainContent">
 			<ul>
-				<li onclick="scrollDown(0,90)">wykłady</li>
-				<li onclick="scrollDown(0,650)">kursy praktyczne</li>
-				<li onclick="scrollDown(0,1250)">filmiki</li>
+				<a href="#lectures"><li>wykłady</li></a>
+				<a href="#courses"><li>kursy praktyczne</li></a>
+				<a href="#movies"><li>filmiki</li></a>
 			</ul>
 		</div>
 	</section>
 	
 	<section id="lectures">
-		<div class="mainContent" class="container">
+		<div class="container">
 			<img class="picture" src="img/edukacja2.png" alt="edukacja tło">
 			<div class="text">
 				<h1>wykłady</h1>
@@ -56,7 +53,7 @@ I couldn't make it other way with the same reasult -->
 	
 	<section id="courses">
 		<div class="mainContent">
-			<div class="mainContent" class="container">
+			<div class="container">
 				<img class="picture" src="img/edukacja.png" alt="edukacja tło">
 				<div class="text">
 					<h1>kursy praktyczne</h1>
@@ -76,7 +73,7 @@ I couldn't make it other way with the same reasult -->
 	
 	<section id="movies">
 		<div class="mainContent">
-			<div class="mainContent" class="container">
+			<div class="container">
 				<img class="picture" src="img/edukacja3.png" alt="edukacja tło">
 				<div class="text">
 					<h1>filmiki edukacyjne</h1>
