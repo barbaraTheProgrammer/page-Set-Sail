@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+/*SELEKTORY HTML*/
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+nav {
+	height: 60px;
+	background-color: #777777;
+	line-height: 60px;
+	text-align: center;
+}
+
+footer {
+	height: 250px;
+	background-color: #376573;
+	text-align: center;
+}
+
+ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #777777;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	text-transform: uppercase;
+	
+	display: flex;
+}
+
+ol li {
+	flex: 1 1 100px;
+}
+
+ol li a {
+	text-decoration: none;
+	color: white;
+	
+	display: block;
+}
+
+ol li a:hover {
+	text-decoration: none;
+	background-color: #376573;
+	color: white;
+}
+
+ul li {
+	padding: 5px 0 5px 0;
+	text-align: left;
+	letter-spacing: 1px;
+	text-transform: none;
+	font-size: 18px;
+	list-style-type: square;
+	margin-left: 60px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+*{box-sizing: border-box; }
+
+/*SELEKTORY id*/
+
+#copy {
+	color: #111;
+	padding-top: 120px;
+	padding-down: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+#copy a {
+	text-decoration: none;
+	color: #111;
+}
+
+#mainContent {
+	background-color: #376573;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 20px 0 70px 0;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+#mainContent p {
+	padding:  20px;
+	text-align: left;
+	text-transform: none;
+	font-size: 18px;
+}
+
+#mainContent h2 {
+	font-size: 30px;
+	text-align: left;
+	padding: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#picture {
+	height: 715px;
+	opacity: 0.95;
+	background-image: url(../img/czarterPicture.png);
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+	background-color: #773436;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#goToCalculatorBottom {
+	background-color: #f4511e;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	opacity: 0.7;
+	transition: 0.3s;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 50px;
+	display: block;
+	margin: 60px auto 0 auto;
+}
+
+#goToCalculatorBottom:hover {opacity: 1}
+
+#calculator {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 50px;
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #376573;
+}
+
+#calculator p {
+	padding: 5px 0 5px 0;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: none;
+	font-size: 22px;
+	font-weight: 600;
+	color: #333;
+}
+
+#calculateButton {
+	background-color: #f4511e;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	font-size: 16px;
+	transition: 0.3s;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 50px;
+	display: block;
+	margin: 60px auto 0 auto;
+}
+
+#calculateButton:hover {
+	background-color: #376573;
+	color: white;
+}
+
+#answear {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #f4511e;
+	height: 40px;
+	width: 200px;
+	text-align: left;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	display: inline-block;
+}
+
+#zloty {
+	margin-left: 20px;
+	margin-riht: 10px;
+	background-color: #f4511e;
+	opacity: 0.8;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	font-size: 16px;
+	transition: 0.3s;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 50px;
+}
+
+#zloty:hover {
+	opacity: 1;
+}
+
+#euro {
+	margin-left: 20px;
+	margin-riht: 10px;
+	background-color: #f4511e;
+	opacity: 0.8;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	font-size: 16px;
+	transition: 0.3s;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 50px;
+}
+
+#euro:hover {
+	opacity: 1;
+}
+
+/*SELEKTORY class*/
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.container span {
+	font-weight: 600;
+	color: #f4511e;
+}
+
+.incorrect {
+	font-size: 12px;
+	color: #f4511e;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+
+.selectCalculator {
+	padding: 40px;
+	margin: auto;
+	display: inline-block;
+}
+
+.selectCalculator select {
+	border-style: solid;
+	border-color: #f4511e;
+	border-width: 2px;
+}
+
+.ansewarCalculator {
+	padding: 50px;
+	display: inline-block;
+}
+
+.containerSocialMedia {
+	padding: 10px;
+}
+
+.socialMedia {
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 20px;
+	padding: 20px;
+	float: left;
+}
+
+.socialMedia a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.up {
+	text-align: right;
+	padding: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}

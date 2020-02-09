@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+/* SELEKTORY html*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+nav {
+	height: 60px;
+	background-color: #777777;
+}
+
+footer {
+	height: 250px;
+	background-color: #376573;
+	text-align: center;
+	clear: both;
+}
+
+ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #777777;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	text-transform: uppercase;
+	
+	display: flex;
+}
+
+ol li {
+	flex: 1 1 100px;
+}
+
+ol li a {
+	text-decoration: none;
+	color: white;
+	
+	display: block;
+}
+
+ol li a:hover {
+	text-decoration: none;
+	background-color: #376573;
+	color: white;
+}
+
+ul{
+	list-style-type: none;
+	padding: 30px;
+	background-color: #376573;
+	height: 3170px;
+	width: 300px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	flex-wrap: wrap;
+	list-style: square;
+}
+
+ul li {
+	color: white;
+	padding: 30px 0 30px 10px;
+	font-weight: 750;
+	font-size: 17px;
+	line-height: 20px;
+}
+
+ul li:hover {
+	background-color: white;
+	color: #376573;
+}
+
+*{box-sizing: border-box; }
+
+/*SELEKTORY id*/
+
+#copy {
+	color: #111;
+	padding-top: 120px;
+	padding-down: 20px;
+	font-size: 15px;
+}
+
+#copy a {
+	text-decoration: none;
+	color: #111;
+}
+
+#lectures {
+	margin-left: 500px;
+	margin-top: 30px;
+}
+
+#courses {
+	margin-left: 500px;
+	margin-top: 30px;
+}
+
+#movies {
+	margin-left: 500px;
+	margin-top: 30px;
+}
+
+/* SELEKTORY class*/
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.mainContent {
+	float: left;
+	margin: 10px;
+}
+
+.picture {
+	width: 1200px;
+	height: 150px;
+	opacity: 0.7;
+	margin-bottom: 20px;
+}
+
+.text {
+	max-width: 1200px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #376573;
+	padding: 20px;
+}
+
+.text h1 {
+	letter-spacing: 3px;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 750;
+}
+
+.text p {
+	font-size: 18px;
+	line-height: 30px;
+	text-align: left;
+	letter-spacing: 1px;
+	text-transform: none;
+	padding: 10px;
+	color: #333;
+}
+
+.text p span {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.containerSocialMedia {
+	padding: 10px;
+}
+
+.socialMedia {
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 20px;
+	padding: 20px;
+	float: left;
+}
+
+.socialMedia a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.up {
+	text-align: right;
+	padding: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}

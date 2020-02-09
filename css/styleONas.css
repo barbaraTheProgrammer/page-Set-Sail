@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+/* SELEKTORY html*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+nav {
+	height: 60px;
+	background-color: #777777;
+}
+
+footer {
+	height: 250px;
+	background-color: #376573;
+	text-align: center;
+}
+
+ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #777777;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	text-transform: uppercase;
+	
+	display: flex;
+}
+
+ol li {
+	flex: 1 1 100px;
+}
+
+ol li a {
+	text-decoration: none;
+	color: white;
+	
+	display: block;
+}
+
+ol li a:hover {
+	text-decoration: none;
+	background-color: #376573;
+	color: white;
+}
+
+*{box-sizing: border-box; }
+
+/*SELEKTORY id*/
+
+#mainContent {
+	margin: 20px;
+}
+
+#mainContent p {
+	font-size: 18px;
+	line-height: 30px;
+	text-align: left;
+	letter-spacing: 0.5px;
+	text-transform: none;
+	padding: 10px;
+	color: #333;
+}
+
+#mainContent span {
+	font-weight: 600;
+}
+
+#mainContent ul {
+	font-size: 18px;
+	line-height: 30px;
+	text-align: left;
+	letter-spacing: 0.5px;
+	text-transform: none;
+	padding: 10px;
+	margin-left: 40px;
+	list-style: square;
+	color: #333;
+}
+
+#logo {
+	height: 235px;
+	width: 258px;
+	margin: auto;
+	background-image: url(../img/logo1.png);
+}
+
+#fotoKacper {
+	background-image: url(../img/Kacper.png);
+	width: 1150px;
+	height: 415px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #376573;
+	margin: 60px auto 150px auto;
+}
+
+#fotoKacper h1 {
+	font-size: 22px;
+	font-weight: 600;
+	padding: 10px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+}
+
+#fotoMarek {
+	background-image: url(../img/Marek.png);
+	width: 1150px;
+	height: 300px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #376573;
+	margin: 100px auto 60px auto;
+}
+
+#fotoMarek h1 {
+	font-size: 22px;
+	font-weight: 600;
+	padding: 10px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+	text-align: bottom;
+}
+
+#copy {
+	color: #111;
+	padding-top: 120px;
+	padding-down: 20px;
+	font-size: 15px;
+}
+
+#copy a {
+	text-decoration: none;
+	color: #111;
+}
+
+/* SELEKTORY class*/
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.picture {
+	max-width: 700px;
+	max-height: 700px;
+}
+
+.containerSocialMedia {
+	padding: 10px;
+}
+
+.socialMedia {
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 20px;
+	padding: 20px;
+	float: left;
+}
+
+.socialMedia a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.up {
+	text-align: right;
+	padding: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}
