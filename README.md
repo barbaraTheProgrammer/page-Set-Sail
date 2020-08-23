@@ -4,4 +4,4 @@ I made this project to understand how to make pages in html. I was learning HTML
 I'm satisfied with the reasult. I think the page is nice and it's really good as a first time! Of course there are things that I could better (mainly responsiveness),
 but the page is okey anyway.
 
-Page is about small company whitch organize crouises. Although this page is not available in the Internet, I'm glad I can show it here.
+Page is about small company whitch organize cruises. Although this page is not available in the Internet, I'm glad I can show it here.
